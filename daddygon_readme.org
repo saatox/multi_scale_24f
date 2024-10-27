@@ -1,0 +1,37 @@
+#+OPTIONS: ^:{}
+#+STARTUP: indent nolineimages overview num
+#+TITLE: daddygon comments
+#+AUTHOR: Shigeto R. Nishitani
+#+EMAIL:     (concat "shigeto_nishitani@mac.com")
+#+LANGUAGE:  jp
+#+OPTIONS:   H:4 toc:t num:2
+#+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
+
+
+* gradings
+|     week | cont            | score[0/5] | comments             |
+|  1(9/25) | intro           |          0 |                      |
+|  2(10/2) | my_help         |          0 |                      |
+|  3(10/9) | command         |          0 |                      |
+| 4(10/16) | hyper_card      |          0 |                      |
+| 5(10/23) | six elements    |          1 | puts, ~/bin, shebang |
+|        6 | pipe, redirect  |            |                      |
+|        8 | fsm, maple_plot |            |                      |
+|        9 | simple tdd      |            | fibonacci, leap_year |
+|        7 | rake            |            | scaffolding, DSL     |
+|       10 | KentBeck        |            | class                |
+|       11 | KentBeck        |            | test                 |
+|       12 | KentBeck        |            |                      |
+
+* 課題やろう<2024-10-28 Mon>
+- 自分でやった？
+- 学部生みたくコピペしてたら残念ね．
+* 名前に意味を
+- ファイルやdirectoryに意味のわかる名前をつけよう．
+- そうすると検索の手間が減るから．
+- tree -dとかが役に立ちます
+
+* 自分に合わせてdirectory構成を
+- 授業で提供している順番にそれほど意味はありません
+- 自分の知識の構造に合わせてfile構造を作ってください．
+- 例えば，apt, emacs, fish, rubyなんかの項目に分けてください．
