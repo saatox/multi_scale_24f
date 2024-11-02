@@ -8,14 +8,14 @@
 #+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
 
 
-* gradings
+
 |     week | cont            | score[0/5] | comments             |
 |  1(9/25) | intro           |          0 |                      |
 |  2(10/2) | my_help         |          0 |                      |
 |  3(10/9) | command         |          0 |                      |
 | 4(10/16) | hyper_card      |          0 |                      |
 | 5(10/23) | six elements    |          3 | puts, ~/bin, shebang |
-| 6(10/30) | git_auto         |            |                      |
+| 6(10/30) | git_auto         |   1        |                      |
 | 7(11/6)  | pipe_redirect    |            |                      |
 | 8(11/13) | listplot3d, dirs |            | maple                |
 | 9(11/20) | rake,  bundler   |            | scaffolding, DSL     |
