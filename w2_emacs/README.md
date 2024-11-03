@@ -1,6 +1,7 @@
 ## Terminal Usage
 
 Prof's directions -> for windows
+
 **For Mac**
 * Split screen -> Cmd + D
 * Exit split screen -> Cmd + Shift + D
