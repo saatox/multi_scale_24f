@@ -1,0 +1,45 @@
+#+OPTIONS: ^:{}
+#+STARTUP: indent nolineimages overview num
+#+TITLE: daddygon comments
+#+AUTHOR: Shigeto R. Nishitani
+#+EMAIL:     (concat "shigeto_nishitani@mac.com")
+#+LANGUAGE:  jp
+#+OPTIONS:   H:4 toc:t num:2
+#+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
+
+
+
+| week     | cont             | score[0/5] | comments             |
+| 1(9/25)  | intro            |          3 |                      |
+| 2(10/2)  | my_help          |          3 |                      |
+| 3(10/9)  | command          |          3 |                      |
+| 4(10/16) | hyper_card       |          0 |                      |
+| 5(10/23) | six elements     |          3 | puts, ~/bin, shebang |
+| 6(10/30) | git_auto         |          0 |                      |
+| 7(11/6)  | pipe_redirect    |            |                      |
+| 8(11/13) | listplot3d, dirs |            | maple                |
+| 9(11/20) | rake,  bundler   |            | scaffolding, DSL     |
+| 10       | rubular, fsm     |            | coc, test            |
+| 11       | KentBeck         |            | class                |
+| 12       | KentBeck         |            | test                 |
+| 13       | KentBeck         |            |                      |
+* 徐々にね<2024-11-04 Mon>
+- ディレクトリを動かして，自分のメモとなるように再構築してください．
+- コツは，$7 \pm 2$
+- 氏名，所属研究室，学籍番号をreadme.mdでいいんで，書いてね．
+
+* auto_gitしよう <2024-11-01 Fri>
+- 氏名，所属研究室，学籍番号をreadme.orgに書いてください．
+
+* 課題やろう<2024-10-28 Mon>
+- 自分でやった？
+- 学部生みたくコピペしてたら残念ね．
+* 名前に意味を
+- ファイルやdirectoryに意味のわかる名前をつけよう．
+- そうすると検索の手間が減るから．
+- tree -dとかが役に立ちます
+
+* 自分に合わせてdirectory構成を
+- 授業で提供している順番にそれほど意味はありません
+- 自分の知識の構造に合わせてfile構造を作ってください．
+- 例えば，apt, emacs, fish, rubyなんかの項目に分けてください．
