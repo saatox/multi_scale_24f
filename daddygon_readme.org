@@ -23,6 +23,14 @@
 | 11       | KentBeck         |            | class                |
 | 12       | KentBeck         |            | test                 |
 | 13       | KentBeck         |            |                      |
+* 英語<2024-11-11 Mon>
+- md派なんね
+- 英語の単語は適切に選ぼうね．
+- Only using jargon makes the explanation pointless 
+  - これはどういう意図なんだろう．
+  - jargon(専門用語)はchunkingとして悪くないんですよ．
+  - 内言語と外言語を意識しているだろうか？
+  - ちょっと説明は込み入るので，気になったら訪ねてください．
 * 徐々にね<2024-11-04 Mon>
 - ディレクトリを動かして，自分のメモとなるように再構築してください．
 - コツは，$7 \pm 2$
