@@ -1,0 +1,18 @@
+#+title: Org Usage
+
+* Heading 1 is created using a singular "*" sign.
+
+Regular text, *bold text*, /italicized text/, _underlined_, +strikethrough+
+
+** Smaller headings/sub-headings
+
+*** Even smaller headings
+
+- lists
++ another list
+    * or like this
+        * even further like this
+    + can go back to this
+    - any one of these work
+    * but when using "*", indentations are important
+        * to differentiate from a header 

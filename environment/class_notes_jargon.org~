@@ -1,0 +1,33 @@
+
+# Class Notes & Info on Jargon
+氏名: 上村 知
+
+研究室: 巳波研究室 (M1)
+
+学籍番号: 47024711
+
+
+## About Shell/Shell Commands
+TLDR -> the language used in terminal (ex.: ls, cd)
+
+* Origin
+  - "Shell" (ex.: zsh, fish) directly comes from seashells, and "kernels" are what's inside of those shells
+  - "Kernels" -> the core part of an operating system that manages operations and hardware
+* Layers 
+  - Goes from language -> editor -> shell -> os
+  - Makes sense when considering why we compile files in terminal (that uses a shell) when running a program
+* Zsh
+  - Default shell for Mac
+  - Open source (can be used on any device)
+  - Preferred and therefore preinstalled on the mac due to its quality
+* Bash
+  - Default for Windows and Linux
+* Fish
+  - Not default but can be installed
+  - Pros: Coloring in terminal (ex.: to differentiate files and folders) are done by default, lightweight
+  - Cons: Due to it being lightweight (contains simple functions compared to Zsh), requires customizations whereas Zsh has more functions set up by default
+
+## md VS html+org
+
+* html+org looks nicer when opened through terminal
+* Both formats can be tested on VSCode using "Open Preview" option

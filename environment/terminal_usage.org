@@ -13,6 +13,7 @@ Prof's directions -> for windows
 * Cmd + Shift + D -> exit split screen
 * Ls -vCFG -> prints ls contents in color to differentiate files with folders
 * Head -23 FILENAME.file -> opens file in terminal
+* emacs FILENAME.org -> ctrl c + ctrl e + h + o -> html file made
 * **for emacs** when in doubt-> cmd x + cmd c (exits emacs entirely, but confirms save beforehand)
   
 ## My_help Usage

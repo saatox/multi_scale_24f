@@ -1,4 +1,4 @@
-#+OPTIONS: ^:{}
+A#+OPTIONS: ^:{}
 #+STARTUP: indent nolineimages overview num
 #+TITLE: daddygon comments
 #+AUTHOR: Shigeto R. Nishitani
