@@ -1,6 +1,8 @@
 #!/usr/bin/env ruby
 
-comment=ARGV[0]
+
+puts "enter comment>>>\n"
+comment=gets
 
 ["git add -A",
  "git commit -m  #{comment}",
