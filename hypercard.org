@@ -1,0 +1,20 @@
+#+title: Key concepts for creating a Hypercard (Taking Notes)
+氏名: 上村 知
+
+研究室: 巳波研究室 (M1)
+
+学籍番号: 47024711
+
+* Chunking
+  - Understanding the components that make up a word/idea
+  - A concept to keep in mind when taking notes to get a better understanding of new concepts
+  - Makes it easier to look back on
+* Semi-Lattice
+  - Regarding images and the format of note taking
+  - Incorportating images within the notes can help grasp new concepts better
+  - Depends on the context/topic, but should be included when necessary
+* 内言語/外言語
+  - Language/word choice used inside/outside your brain
+  - Note taking can be done in 内言語, a benefit being that it can be kept simple and consice
+  - Can turn problematic if exact definitions of certain words being used in 内言語 differ to what's generally used in 外言語
+  - Compatibility of 内言語 and 外言語 becomes key especially in conversations- hence the importance of learning jargon and making sure that its definition is an exact match to your personal understanding.
