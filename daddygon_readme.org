@@ -9,20 +9,32 @@ A#+OPTIONS: ^:{}
 
 
 
-| week     | cont             | score[0/5] | comments             |
-| 1(9/25)  | intro            |          3 |                      |
-| 2(10/2)  | my_help          |          3 |                      |
-| 3(10/9)  | command          |          3 |                      |
-| 4(10/16) | hyper_card       |          0 |                      |
-| 5(10/23) | six elements     |          3 | puts, ~/bin, shebang |
-| 6(10/30) | git_auto         |          0 |                      |
-| 7(11/6)  | pipe_redirect    |            |                      |
-| 8(11/13) | listplot3d, dirs |            | maple                |
-| 9(11/20) | rake,  bundler   |            | scaffolding, DSL     |
-| 10       | rubular, fsm     |            | coc, test            |
-| 11       | KentBeck         |            | class                |
-| 12       | KentBeck         |            | test                 |
-| 13       | KentBeck         |            |                      |
+| week      | cont             | score[0/5] | comments                  |
+| 1(9/25)   | intro            |          5 |                           |
+| 2(10/2)   | my_help          |          5 |                           |
+| 3(10/9)   | command          |          5 |                           |
+| 4(10/16)  | hyper_card       |          ? | これからね．              |
+| 5(10/23)  | six elements     |          3 | puts, ~/bin, shebang      |
+| 6(10/30)  | git_auto         |          4 | 独自のを作りましょう      |
+| 7(11/6)   | pipe_redirect    |            |                           |
+| 8(11/13)  | listplot3d, dirs |            | maple                     |
+| 9(11/20)  | rubular, fsm     |            | tdd, good_memo, knowledge |
+| 10(11/27) | rake,  bundler   |            | scaffolding, DSL          |
+| 11        | KentBeck_TDD     |            | class                     |
+| 12        | KentBeck_TDD     |            | test                      |
+| 13        | KentBeck_TDD     |            |                           |
+
+* color and format <2024-11-13 Wed>
+- 昨日はどうも，点数更新しています．申し訳ない．
+- html化なんですが，daddygon_readme.htmlって見やすくない？
+  - readtheorgというformatterを使っているからなんですよ．
+  - 少しの工夫で，可読性は格段に上がります
+  - 今のreadme.htmlだとreame.orgをbatで読んだ方が読みやすいんで，そのままでいいです．申し訳ない．
+  - この辺り，HyperCard systemの対象(製作者か読者か)によって変わるところです．これからベタツールを作っていきます．
+- fish入った？
+  - color化で可読性が上がるってのを実感してもらいたいんですが．．．
+  - tldr, bat, なんかはそういった工夫の賜物です
+
 * 英語<2024-11-11 Mon>
 - md派なんね
 - 英語の単語は適切に選ぼうね．
