@@ -1,0 +1,44 @@
+氏名: 上村 知
+
+研究室: 巳波研究室 (M1)
+
+学籍番号: 47024711
+
+** Basic Grammar for Ruby
+
+1-puts
+- Hello World on terminal
+
+2-name 
+- How to use variables with options (if empty(default value): 'x' if not: 'y')
+- How to incorporate other variable's values into strings
+
+3-array 
+- How to have multiple values in a single variable (array)
+- How to concatinate two values in an output
+
+4-method
+- How to define+call functions
+
+5-loop 
+- Different ways of creating a loop and how each version differs     
+- Show how many loops are conducted when defining with numbers (<= or <)   
+- Call files from directory
+
+Color_opt
+- How to print in color on terminal (usage of library 'colorize')
+- Usage of if/else statements on ruby (basic grammar of statements)
+- Usage of opts (specific to ruby(?))
+- Usage of .each (meaning for each element in array do the following)
+- Usage of 'next if': skips the following command ('goes next') if the conditional is true
+    eg.: skips the system command if dryrun is true
+- Command 'system' runs the instructions instead of just printing it on terminal
+
+When_usage
+- Usage of 'when' statements as an alternative to if/else statements
+- Can be compared with Color_opt: the programs do the same exact thing using different statements
+
+Commit_opt
+- Closer to the final auto_git program 
+- Changes the commit command before it is executed, depending on the option requested by the user
+- Includes commit message to the command so it doesn't have to be input seperately
