@@ -16,13 +16,22 @@ A#+OPTIONS: ^:{}
 | 4(10/16)  | hyper_card       |          ? | これからね．              |
 | 5(10/23)  | six elements     |          3 | puts, ~/bin, shebang      |
 | 6(10/30)  | git_auto         |          4 | 独自のを作りましょう      |
-| 7(11/6)   | pipe_redirect    |            |                           |
+| 7(11/6)   | pipe_redirect    |          4 |                           |
 | 8(11/13)  | listplot3d, dirs |            | maple                     |
 | 9(11/20)  | rubular, fsm     |            | tdd, good_memo, knowledge |
 | 10(11/27) | rake,  bundler   |            | scaffolding, DSL          |
 | 11        | KentBeck_TDD     |            | class                     |
 | 12        | KentBeck_TDD     |            | test                      |
 | 13        | KentBeck_TDD     |            |                           |
+
+* w7 comment <2024-11-14 Thu>
+- 独自の構成だね
+  - いいね．必要になったら整理する．
+  - それまでは放置ね．
+- 英語が心地いいね．
+  - 私のええ加減な説明が論理的に見える．
+  - 英語の方が論理的なんやろうな．．．
+  - やれやれ，私はどっちつかずでね．．．
 
 * color and format <2024-11-13 Wed>
 - 昨日はどうも，点数更新しています．申し訳ない．
