@@ -6,4 +6,3 @@ File.readlines("out.txt").each do |test|
     data=test.scanf(scan_array)
     pp data
   end
-
