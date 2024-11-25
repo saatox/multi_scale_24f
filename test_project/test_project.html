@@ -3,10 +3,10 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2024-11-24 Sun 16:51 -->
+<!-- 2024-11-24 Sun 17:45 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Org Usage</title>
+<title>Test Project Files</title>
 <meta name="author" content="Sato Kamimura" />
 <meta name="generator" content="Org Mode" />
 <style>
@@ -193,78 +193,201 @@
     { background-color: #ffff00; color: #000000; font-weight: bold; }
   .org-svg { }
 </style>
+<script>
+  window.MathJax = {
+    tex: {
+      ams: {
+        multlineWidth: '85%'
+      },
+      tags: 'ams',
+      tagSide: 'right',
+      tagIndent: '.8em'
+    },
+    chtml: {
+      scale: 1.0,
+      displayAlign: 'center',
+      displayIndent: '0em'
+    },
+    svg: {
+      scale: 1.0,
+      displayAlign: 'center',
+      displayIndent: '0em'
+    },
+    output: {
+      font: 'mathjax-modern',
+      displayOverflow: 'overflow'
+    }
+  };
+</script>
+
+<script
+  id="MathJax-script"
+  async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
 </head>
 <body>
 <div id="content" class="content">
-<h1 class="title">Org Usage</h1>
+<h1 class="title">Test Project Files</h1>
 <div id="table-of-contents" role="doc-toc">
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#orgf9ee5c3">1. Heading 1 is created using a singular "*" sign.</a>
-<ul>
-<li><a href="#orge230fa8">1.1. Smaller headings/sub-headings</a>
-<ul>
-<li><a href="#org192c091">1.1.1. Even smaller headings</a></li>
+<li><a href="#org61037d6">1. Test Project Premise</a></li>
+<li><a href="#org14957e3">2. scanf_test.rb</a></li>
+<li><a href="#orgcaca9f6">3. keyboard_input.rb</a></li>
+<li><a href="#org5aed87c">4. from_file.rb</a></li>
+<li><a href="#org72a9206">5. options.rb</a></li>
 </ul>
-</li>
-<li><a href="#orgf3207a8">1.2. Other tips</a></li>
-</ul>
-</li>
+</div>
+</div>
+<p>
+氏名: 上村 知
+</p>
+
+<p>
+研究室: 巳波研究室 (M1)
+</p>
+
+<p>
+学籍番号: 47024711
+</p>
+
+<div id="outline-container-org61037d6" class="outline-2">
+<h2 id="org61037d6"><span class="section-number-2">1.</span> Test Project Premise</h2>
+<div class="outline-text-2" id="text-1">
+<ul class="org-ul">
+<li>Learn to plot 2D and 3D graphs using a combination of ruby and maple/matplotlib</li>
+<li>Learn to run multiple programs through a single command (interconnecting files and including directions to run other programs through shell commands)</li>
+<li>Read and write into files using ruby</li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-orgf9ee5c3" class="outline-2">
-<h2 id="orgf9ee5c3"><span class="section-number-2">1.</span> Heading 1 is created using a singular "*" sign.</h2>
-<div class="outline-text-2" id="text-1">
+<div id="outline-container-org14957e3" class="outline-2">
+<h2 id="org14957e3"><span class="section-number-2">2.</span> scanf_test.rb</h2>
+<div class="outline-text-2" id="text-2">
 <p>
-Regular text, <b>bold text</b>, <i>italicized text</i>, <span class="underline">underlined</span>, <del>strikethrough</del>
+Demonstrates ways of accepting textfiles as input. <br />
+</p>
+<pre class="example">
+p scan_string = "[%f, %f, %f]" 
+</pre>
+<p>
+&#x2013;&gt; "[%f, %f, %f]" <br />
+<b>prints scan_string as is.</b> <br />
+</p>
+<pre class="example">
+p line 
+</pre>
+<p>
+&#x2013;&gt; "[1.0, 1.0, 3.0]\n" <br />
+<b>prints line of input as string (quotation marks and all).</b> <br />
+</p>
+<pre class="example">
+p line.scanf(scan_string)
+</pre>
+<p>
+&#x2013;&gt; [1.0, 1.0, 3.0] <br />
+<b>prints line of input in the scan_string format set prior.</b> <br />
+</p>
+<pre class="example">
+scan_array = "[%f, %f, %f]" 
+scan_string="%s %s %s" 
+</pre>
+<p>
+<b>declares reading format as an array and string, respectively.</b> <br />
+</p>
+<pre class="example">
+p test.chomp 
+</pre>
+<p>
+&#x2013;&gt; "[1.0, 1.0, 3.0]" <br />
+<b>prints line of textfile as is.</b> <br />
+</p>
+<pre class="example">
+p test.scanf(scan_array) 
+</pre>
+<p>
+&#x2013;&gt; [1.0, 1.0, 3.0] <br />
+<b>prints line of input in the scan_array format set prior.</b> <br />
+</p>
+<pre class="example">
+p test.scanf(scan_string)
+</pre>
+<p>
+&#x2013;&gt; ["[1.0,", "1.0,", "3.0]"] <br />
+<b>prints line of input in the scan_string format set prior, notice that the opening and closing brackets as well as
+                                                            commas are included in the string due to its lack of formatting.</b> <br />
 </p>
 </div>
+</div>
 
-<div id="outline-container-orge230fa8" class="outline-3">
-<h3 id="orge230fa8"><span class="section-number-3">1.1.</span> Smaller headings/sub-headings</h3>
-<div class="outline-text-3" id="text-1-1">
-</div>
-<div id="outline-container-org192c091" class="outline-4">
-<h4 id="org192c091"><span class="section-number-4">1.1.1.</span> Even smaller headings</h4>
-<div class="outline-text-4" id="text-1-1-1">
-<ul class="org-ul">
-<li>lists</li>
-<li>another list
-<ul class="org-ul">
-<li>or like this
-<ul class="org-ul">
-<li>even further like this</li>
-</ul></li>
-<li>can go back to this</li>
-<li>any one of these work</li>
-<li>but when using "*", indentations are important
-<ul class="org-ul">
-<li>to differentiate from a header</li>
-</ul></li>
-</ul></li>
-</ul>
-</div>
+<div id="outline-container-orgcaca9f6" class="outline-2">
+<h2 id="orgcaca9f6"><span class="section-number-2">3.</span> keyboard_input.rb</h2>
+<div class="outline-text-2" id="text-3">
+<p>
+Demonstrates how to accept user input through typing into terminal.
+</p>
+<pre class="example">
+x=(gets||'1').to_f
+</pre>
+<p>
+<b>'gets' is the part that accepts input from the keyboard, the 'or 1' being the alternative option for the variable should there be no input.</b>
+</p>
 </div>
 </div>
 
-<div id="outline-container-orgf3207a8" class="outline-3">
-<h3 id="orgf3207a8"><span class="section-number-3">1.2.</span> Other tips</h3>
-<div class="outline-text-3" id="text-1-2">
-<ul class="org-ul">
-<li>"\\" to create new line</li>
-<li>include #+OPTIONS: ^:nil to disable automatic superscripts and subscripts</li>
-<li><a href="https://nhigham.com/2017/11/02/org-mode-syntax-cheat-sheet/">https://nhigham.com/2017/11/02/org-mode-syntax-cheat-sheet/</a> for more</li>
-</ul>
+<div id="outline-container-org5aed87c" class="outline-2">
+<h2 id="org5aed87c"><span class="section-number-2">4.</span> from_file.rb</h2>
+<div class="outline-text-2" id="text-4">
+<p>
+Demonstrates the implementation of the above examples by reading from a text file and using that input to do calculations. <br />
+</p>
+<pre class="example">
+while (i&lt;lines.length)
+</pre>
+<p>
+<b>another way of reading lines until the end of file, different to that of the methods demonstrated in scanf_test.rb. Note that this method was 
+chosen in order to read every other line.</b> <br />
+</p>
+<pre class="example">
+x = lines[i].chomp.to_f
+</pre>
+<p>
+<b>.to_f turns strings into floats: ideal for using the input as numbers instead of text.</b><br />
+</p>
+<pre class="example">
+system "ruby for_plot.rb &gt;results.txt"
+</pre>
+<p>
+<b>runs the command in quotation marks as a shell command, ie.: run for_plot.rb and output results into the designated textfile.</b> <br />
+</p>
 </div>
+</div>
+
+<div id="outline-container-org72a9206" class="outline-2">
+<h2 id="org72a9206"><span class="section-number-2">5.</span> options.rb</h2>
+<div class="outline-text-2" id="text-5">
+<p>
+Demonstrates the usage of case specific instructions.
+</p>
+<pre class="example">
+option=ARGV[0]||'--option'
+-
+-
+case option
+    when '--option'
+        puts ('redo with an option')
+</pre>
+<p>
+*</p>
 </div>
 </div>
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Sato Kamimura</p>
-<p class="date">Created: 2024-11-24 Sun 16:51</p>
+<p class="date">Created: 2024-11-24 Sun 17:45</p>
 <p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>

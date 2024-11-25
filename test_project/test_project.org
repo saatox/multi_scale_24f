@@ -1,7 +1,93 @@
 #+title: Test Project Files
+#+OPTIONS: ^:nil
 氏名: 上村 知
 
 研究室: 巳波研究室 (M1)
 
 学籍番号: 47024711
 
+** Test Project Premise
+- Learn to plot 2D and 3D graphs using a combination of ruby and maple/matplotlib
+- Learn to run multiple programs through a single command (interconnecting files and including directions to run other programs through shell commands)
+- Read and write into files using ruby
+
+** scanf_test.rb
+Demonstrates ways of accepting textfiles as input. \\
+#+BEGIN_SRC
+  p scan_string = "[%f, %f, %f]" 
+#+END_SRC
+--> "[%f, %f, %f]" \\ 
+*prints scan_string as is.* \\
+#+BEGIN_SRC
+  p line 
+#+END_SRC
+--> "[1.0, 1.0, 3.0]\n" \\
+*prints line of input as string (quotation marks and all).* \\
+#+BEGIN_SRC
+  p line.scanf(scan_string)
+#+END_SRC
+--> [1.0, 1.0, 3.0] \\
+*prints line of input in the scan_string format set prior.* \\
+#+BEGIN_SRC
+  scan_array = "[%f, %f, %f]" 
+  scan_string="%s %s %s" 
+#+END_SRC
+  *declares reading format as an array and string, respectively.* \\
+#+BEGIN_SRC
+  p test.chomp 
+#+END_SRC
+--> "[1.0, 1.0, 3.0]" \\ 
+*prints line of textfile as is.* \\
+#+BEGIN_SRC
+  p test.scanf(scan_array) 
+#+END_SRC
+--> [1.0, 1.0, 3.0] \\ 
+*prints line of input in the scan_array format set prior.* \\
+#+BEGIN_SRC
+  p test.scanf(scan_string)
+#+END_SRC
+--> ["[1.0,", "1.0,", "3.0]"] \\ 
+*prints line of input in the scan_string format set prior, notice that the opening and closing brackets as well as
+                                                            commas are included in the string due to its lack of formatting.* \\
+
+** keyboard_input.rb
+Demonstrates how to accept user input through typing into terminal.
+#+BEGIN_SRC
+x=(gets||'1').to_f
+#+END_SRC
+*'gets' is the part that accepts input from the keyboard, the 'or 1' being the alternative option for the variable should there be no input.*
+
+** from_file.rb
+Demonstrates the implementation of the above examples by reading from a text file and using that input to do calculations. \\
+#+BEGIN_SRC
+while (i<lines.length)
+#+END_SRC
+*another way of reading lines until the end of file, different to that of the methods demonstrated in scanf_test.rb. Note that this method was 
+chosen in order to read every other line.* \\
+#+BEGIN_SRC
+x = lines[i].chomp.to_f
+#+END_SRC
+*.to_f turns strings into floats: ideal for using the input as numbers instead of text.*\\
+#+BEGIN_SRC
+system "ruby for_plot.rb >results.txt"
+#+END_SRC
+*runs the command in quotation marks as a shell command, ie.: run for_plot.rb and output results into the designated textfile.* \\
+
+** options.rb
+Demonstrates the usage of case specific instructions.
+#+BEGIN_SRC
+option=ARGV[0]||'--option'
+-
+-
+case option
+    when '--option'
+        puts ('redo with an option')
+#+END_SRC
+*first line shows that the first keyboard input string 'ARGV[0]' will be accepted as the content of the variable 'option'. If there is no keyboard input, '--option' will 
+be kept as the content of the variable. Through 'case option', specifications of what to do with each content instance of the variable 'option' is made. Additional instances 
+can be made using the same syntax.* \\
+
+#+BEGIN_SRC
+when '--file'
+    File.write('in.txt', "#{x}\n1.0\n", mode: 'a+')
+#+END_SRC

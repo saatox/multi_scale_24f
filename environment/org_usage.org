@@ -16,3 +16,8 @@ Regular text, *bold text*, /italicized text/, _underlined_, +strikethrough+
     - any one of these work
     * but when using "*", indentations are important
         * to differentiate from a header 
+
+** Other tips
+- "\\" to create new line
+- include #+OPTIONS: ^:nil to disable automatic superscripts and subscripts
+- https://nhigham.com/2017/11/02/org-mode-syntax-cheat-sheet/ for more
