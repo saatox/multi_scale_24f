@@ -18,11 +18,17 @@
 | 6(10/30)  | git_auto         |          4 | 独自のを作りましょう      |
 | 7(11/6)   | pipe_redirect    |          4 |                           |
 | 8(11/13)  | listplot3d, dirs |          4 | maple                     |
-| 9(11/20)  | rubular, fsm     |            | tdd, good_memo, knowledge |
+| 9(11/20)  | rubular, fsm     |          5 | tdd, good_memo, knowledge |
 | 10(11/27) | rake,  bundler   |            | scaffolding, DSL          |
 | 11        | KentBeck_TDD     |            | class                     |
 | 12        | KentBeck_TDD     |            | test                      |
 | 13        | KentBeck_TDD     |            |                           |
+
+* w9 <2024-12-03 Tue>
+- rubularだけかな．
+- [[https://archive.org/details/hypercardstacks]] 見つけた？
+- screen_shotのデフォルトが空白付きなんは嫌なんですが．．．
+- tddは英語のテキスト使います
 
 * w8 comment <2024-11-18 Mon>
 - plotちゃんと描けてないよ．
