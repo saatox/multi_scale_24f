@@ -1,0 +1,54 @@
+氏名: 上村 知
+
+研究室: 巳波研究室 (M1)
+
+学籍番号: 47024711
+
+** Usage of Regexps
+-Shortened term for "Regular Expressions"
+-Used for finding/extracting specific patterns in a string
+-Websites like rubular.com is necessary due to the expressions' complex nature
+
+#+BEGIN_SRC
+line =~ string
+#+END_SRC
+(string=regexps, line=text to search within) \\
+=~ means the result of the extraction, returns either the match or nil \\
+
+#+BEGIN_SRC
+res = line.scan(string)
+#+END_SRC
+Scans for patterns of "string" (regexps) in "line" (text) \\
+Note that results will be put into an array as a string, and will require casting into a float to use as a number. \\
+
+#+BEGIN_SRC
+m = line.match(string) 
+#+END_SRC
+Does the same thing as above, but results are organized as follows: \\
+m[0]: entirety of the pattern that was found \\
+m[1]: first variable that was searched for (and found) in the regexps \\
+m[2]: second variable that was searched for (and found) in the regexps(...and so on) \\
+
+#+BEGIN_SRC
+p line.scanf("* fix calc kpoints:50, in_plane:%f, vertical:%f")
+#+END_SRC
+Outputs specifically the two variables described as %f, and in float form as scanned \\
+
+#+BEGIN_SRC
+string=Regexp.new(/(?<month>\d{1,2})\/(?<day>\d{1,2})\/(?<year>\d{4})/)
+#+END_SRC
+Finds whether a date in full format is included in the text or not. \\
+\d signifies any digit, while the numbers in { } is representative of the number of digits that are to be searched. \\
+
+
+#+BEGIN_SRC
+if "hi there".match(/hi/) 
+    puts "match"
+end
+#+END_SRC
+Can be combined with other forms of functions such as if statements. Also shows how to put the regexps directly into the statement instead of 
+creating a variable specifically for it. \\
+
+-As mentioned in class, there is no need to memorize the formats of these regexps
+-Different formats of scanning/matching can be utilized depending on the usage of the results
+
