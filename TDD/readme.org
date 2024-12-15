@@ -1,0 +1,65 @@
+#+title: Test Driven Development
+#+OPTIONS: ^:nil
+氏名: 上村 知
+
+研究室: 巳波研究室 (M1)
+
+学籍番号: 47024711
+
+** Intro to TDD
+- Test-Driven Development
+- Conceptualized by Kent Beck
+- Aims to make *"Clean code that works"*
+
+** Rules
+- Only write new code when an automated test fails
+    - Effective in created simple code, increasing legibility 
+    - Stops creation of unnecessary functions, minimizing lines of code
+- Eliminate duplication
+    - Minimize redundancy
+    - Effective in simplication of code because it avoids functions that have the same purpose
+
+** TDD Mantra
+- *Red* \\
+    Create a test that initially may/will not work. Does not even need to compile.
+- *Green* \\
+    Do whatever necessary to make the tests work as quickly as possible.
+- *Refactor* \\
+    Eliminate duplication and clean up the code to remove anything that is now redundant.
+
+** Chapter 1
+Shows the effectiveness of the TDD Mantra by immediately attempting to compile code that clearly doesn't work,
+then adding only the minimum amount of code necessary to make it work the way it's intended to.
+
+** Chapter 2
+Edits code created in Chapter 1 to simplify it and minimize the code as much as possible while ensuring its
+functionality.
+
+** Chapter 3
+Goes through the process of triangluation, a term used in radio signaling. 
+Essentially means you should edit the code for generalization when there are two or more examples. 
+The above is done through the equals function, which does as its name suggests. The generalization of this
+function is obviously necessary since the values being checked won't be the same each time.
+
+** Chapter 4
+Edits the code from Chapter 3 to increase readability, making it more straightforward for the
+users to understand the process being conducted.
+
+** Chapter 5
+Reiterates the process from Chapter 1, highlighting the importance of the mantra yet again.
+Also shines light on how the elimination of duplicates is benefitial in the latter parts of
+the editing process, and emphasizes that it is more than just for better legibility.
+
+** Chapter 6
+Goes through the process of creating a new class in order to minimize redundancy. 
+Takes note of the fact that the two classes created share a lot of similarities, making it possible and
+much easier to access going forward by organizing them into one common superclass.
+
+** Chapter 7
+Additional example of the testing process that is necessary when a refactoring is done, ie. editing
+the code is necessary to ensure each function is still working as intended.
+
+** Chapter 8
+A partial explanation of the "green" part of the mantra, where everything necessary is done to maintain 
+the functionality of the code while also doing the bare minimum. Additionally highlights the importance
+of maintaining the reliability of the tests being conducted.
