@@ -19,11 +19,24 @@
 | 7(11/6)   | pipe_redirect    |          4 |                           |
 | 8(11/13)  | listplot3d, dirs |          4 | maple                     |
 | 9(11/20)  | rubular, fsm     |          5 | tdd, good_memo, knowledge |
-| 10(11/27) | rake,  bundler   |            | scaffolding, DSL          |
-| 11        | KentBeck_TDD     |            | class                     |
-| 12        | KentBeck_TDD     |            | test                      |
+| 10(11/27) | rake,  bundler   |         2? | scaffolding, DSL          |
+| 11        | KentBeck_TDD     |          5 | class                     |
+| 12        | KentBeck_TDD     |          5 | test                      |
 | 13        | KentBeck_TDD     |            |                           |
 
+* w10-12 <2024-12-17 Tue>
+- 写経は順調みたいやね，ただ，
+  - testは残すもんでね，そうしないと後方互換がなくなる
+  - Test::Unit::TestCaseも身につけておくと便利
+    - こういったTestFrameWorkは謎のコマンドとなりますが，
+      少し勉強すると，普通のクラス動作なので，
+    - 車輪の再発明をしなくてもいいように．
+- block commentをcodeでやると#がついてね．．．まぁいいか．
+- readme.orgに自分の言葉で残すのはいいことです．
+  - 私の場合は，文章で書くと思い出せないので，
+  - リストにするか
+  - mantra(標語)を考えます．
+    - matzの言葉を読んでください
 * w9 <2024-12-03 Tue>
 - rubularだけかな．
 - [[https://archive.org/details/hypercardstacks]] 見つけた？
