@@ -63,3 +63,36 @@ the code is necessary to ensure each function is still working as intended.
 A partial explanation of the "green" part of the mantra, where everything necessary is done to maintain 
 the functionality of the code while also doing the bare minimum. Additionally highlights the importance
 of maintaining the reliability of the tests being conducted.
+
+** Chapter 9
+Shows the process of mergining constructors to minimize redundancy, the example being when two
+similar constructors are doing the exact same thing with only a difference in the attributes. //
+Also removes and reorganizes the initializing process, which too can be merged as it essentially does
+the same thing.
+
+** Chapter 10
+Gets rid of all components that are repetitive, while executing tests whenever needed to ensure that
+the way in which the code works (the output) remains the same. //
+Although a small example, this chapter covers the crucial process of maintaining the program's quality when 
+refactoring.
+
+** Chapter 11
+Removes the subclasses for francs and dollars entirely, making them instances of their former superclasses.
+Key points of the chapter include getting rid of tests that no longer serve its purpose of checking whether 
+the subclasses work, replacing them with ones that test the former superclass. Note that the most crucial point
+is ensuring that the tests don't miss checking the validity of all components of the new code, in this instances
+the two different currecies.
+
+** Chapter 12
+Shows and explains the process of adding an expression, or a new function to the preexisting class.
+Includes details on running tests, making sure that the tests being used corresponds to the new 
+parts of the code. Worth noting that all of the tests being conducted and code being added all comes back
+the main point of getting the program to compile and run as quickly as possible. Refactoring is done
+whenever it is deemed necessary AFTER all of the aforementioned process is completed.
+
+** Chapter 13
+Focal point is still implementing a new expression, but works on actually creating the functional part of it.
+Previous chapter reached compiling levels by simply printing the appropriate result (somewhat of a pseudo function).
+This chapter takes that and fixes it so that the expected output is reached for any number and the expression is 
+actually usable. Although it seems tedious, this also goes along with the theme of the book of getting the coding 
+done as simply, efficiently, and quickly as possible.
