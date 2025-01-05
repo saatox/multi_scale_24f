@@ -1,0 +1,22 @@
+#+title: Rakefiles
+
+** What it is //
+By definition, a rakefile is "a Make-like program implemented in Ruby".//
+(source: https://ruby.github.io/rake/index.html) //
+This means that its syntax is entirely equivalent to that of Ruby's.
+
+** Installation //
+#+BEGIN_SRC
+sudo gem install put_rake
+#+END_SRC
+
+** Usage //
+Most basic command:
+#+BEGIN_SRC
+put Rakefile for [EXT]
+#+END_SRC
+
+Creating new paths
+#+BEGIN_SRC
+add Rakefile template PATH
+#+END_SRC

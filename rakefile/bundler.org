@@ -1,0 +1,23 @@
+#+title: Bundler
+
+** What it is //
+Helps create a more sophisticated environment for developing programs.
+
+** Installation //
+#+BEGIN_SRC
+sudo gem install bundler
+#+END_SRC
+
+** Usage //
+(Using testfile hello_rudy) Expected output: Hello Rudy. //
+After creating the necessary file (provided in the same folder as this readme),
+#+BEGIN_SRC
+bundle exec exe/hello_rudy
+sudo rake install: local
+#+END_SRC
+First line prepares the file, second line installs it to your local system, allowing
+it to access/run it when called.//
+#+BEGIN_SRC
+hello_rudy Rudy
+#+END_SRC
+Runs the program, output should be as predicted.
