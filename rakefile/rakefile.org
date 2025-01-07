@@ -3,7 +3,7 @@
 ** What it is \\
 By definition, a rakefile is "a Make-like program implemented in Ruby". \\
 (source: https://ruby.github.io/rake/index.html) 
-\\
+
 This means that its syntax is entirely equivalent to that of Ruby's.
 
 ** Installation 
