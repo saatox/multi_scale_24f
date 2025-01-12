@@ -8,7 +8,12 @@
 #+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
 
 
+* final report 5
+えっと，説明した通り，pythonでもいいけど，
+授業で何を学んだかを記述してください．
+あるいはusage. 英語でいいので．
 
+* gradings
 | week      | cont             | score[0/5] | comments                  |
 | 1(9/25)   | intro            |          5 |                           |
 | 2(10/2)   | my_help          |          5 |                           |
@@ -22,7 +27,14 @@
 | 10(11/27) | rake,  bundler   |         2? | scaffolding, DSL          |
 | 11        | KentBeck_TDD     |          5 | class                     |
 | 12        | KentBeck_TDD     |          5 | test                      |
-| 13        | KentBeck_TDD     |            |                           |
+| 13        | KentBeck_TDD     | 5          |                           |
+
+* w13 <2025-01-12 Sun>
+OK
+
+えっと，Rakeのところを直しているけど，
+理解していただいているのだろうか？
+講義が意味不になってる？
 
 * w10-12 <2024-12-17 Tue>
 - 写経は順調みたいやね，ただ，
