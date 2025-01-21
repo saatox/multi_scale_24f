@@ -1,11 +1,11 @@
 import pandas as pd
 import numpy as  np
-
-option=input("select option: ")
-print("\n")
+import sys
 
 
-og_file=pd.read_csv(f'spotify_playlists/liked_songs.csv', header=0)
+
+
+og_file=pd.read_csv(f'liked_songs.csv', header=0)
 
 popularity=og_file['Popularity'].mean()
 tempo=og_file['Tempo'].mean()
@@ -21,12 +21,11 @@ artist_count=artists.count().to_list()
 artist_count=artist_count[0]
 
 
-if(option=="wrapped"):
-    print("ALL TIME TOP ARTISTS\n", artists[:10].to_string(index=False))
-    print("\nAverage popularity =", popularity, "\n")
-    print("Average tempo =", tempo, "\n")
-    print("You like", obscurity, "obscure songs.\n")
-    print("You have liked songs from", artist_count, "artists.\n")
+print("ALL TIME TOP ARTISTS\n", artists[:10].to_string(index=False))
+print("\nAverage popularity =", popularity, "\n")
+print("Average tempo =", tempo, "\n")
+print("You like", obscurity, "obscure songs.\n")
+print("You have liked songs from", artist_count, "artists.\n")
 
 
 
