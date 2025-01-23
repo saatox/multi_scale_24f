@@ -8,11 +8,21 @@
 #+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
 
 
-* final report 5
+* final report 20
 えっと，説明した通り，pythonでもいいけど，
 授業で何を学んだかを記述してください．
 あるいはusage. 英語でいいので．
 
+- 高評価
+  - 授業で学んだ便利な点が記述されている(+10)
+  - Pythonでのsysの使い方がちゃんと記述されている(+10)
+- 減点
+  - プログラム自身の目的がよくわからない
+  - 改善前はどうしていたのかがわからない
+    - 単にrubyのwrapperを書いただけなのか？
+    - pythonもclaにしたのか？
+    - httpで表示させていたのか, xlsxなのか？
+    - 画像があるとよくわかる
 * gradings
 | week      | cont             | score[0/5] | comments                  |
 | 1(9/25)   | intro            |          5 |                           |
