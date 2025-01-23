@@ -8,7 +8,7 @@
 #+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
 
 
-* final report 20
+* final report : 20
 えっと，説明した通り，pythonでもいいけど，
 授業で何を学んだかを記述してください．
 あるいはusage. 英語でいいので．
