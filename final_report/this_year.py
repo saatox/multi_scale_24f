@@ -2,14 +2,17 @@ import pandas as pd
 import numpy as  np
 import warnings
 warnings.filterwarnings("ignore")
+import sys
 
-option=input("select option(type 'help' for list of options): ")
+
+print ('argument list', sys.argv)
+option = sys.argv[1]
 
 CRED= '\033[91m'
 CGREEN = '\033[92m'
 CEND = '\033[0m'
 
-og_file=pd.read_csv(f'spotify_playlists/liked_songs.csv', header=0)
+og_file=pd.read_csv(f'liked_songs.csv', header=0)
 this_year=og_file[og_file['Added At'].str.contains('2024', na=False)]
 last_year=og_file[og_file['Added At'].str.contains('2023', na=False)]
 
@@ -54,14 +57,14 @@ obscurity_comp=sum(obscurity_comp)
 
 
 
-if(option=="wrapped"):
+if(option=="--wrapped"):
     print("\nTHIS YEAR'S TOP ARTISTS\n", artists[:10].to_string(index=False))
     print("\nAverage popularity =", "{:.2f}".format(popularity), "\n")
     print("Average tempo =", tempo, "\n")
     print("You liked", obscurity, "obscure songs this year.\n")
     print("You liked songs from", len(artists), "artists this year.\n")
     
-if(option=="comparison"):
+elif(option=="--comparison"):
     print("\nTHIS YEAR VS LAST YEAR'S TOP ARTISTS\n", comp_artists[:10].to_string(index=False))
     
     popularity=this_year['Popularity'].mean()/last_year['Popularity'].mean()
@@ -82,8 +85,5 @@ if(option=="comparison"):
     else:
         print("\n you liked songs by",len(artists),"artists,", abs(len(artists)-len(last_artists)), "more than last year\n")
 
-
-if(option=="help"):
-    print('\nwrapped: summary of this year\'s spotify activity')
-    print('comparison: compare this year\'s activity to last year\'s')
-    print('artist: insert artist to see details on liked songs by selected artist')
+else:
+    print("error\n")
